@@ -1,0 +1,218 @@
+
+.vert-line {
+  border-left: 6px solid  rgb(129, 226, 255);;
+  height: 100px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  width: 50px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(64, 130, 158);
+    justify-content: space-between;
+    align-content: stretch;
+    
+}
+/* li Parent */
+#nav-bar ul {
+    display: flex;
+    margin-right: 50px;
+}
+/* Link Texts */
+#nav-bar li {
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type:none;
+    color:  rgb(129, 226, 255);;
+    font-weight: bolder;
+}
+
+#header h1{
+    background-color: rgb(129, 226, 255);
+    margin-top: 1px;
+    padding-left: 40px;
+}
+
+a:link, a:visited {
+    color: rgb(129, 226, 255);;
+    border-bottom: 3px solid rgb(129, 226, 255);;
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    padding: 0;
+    margin: 0%;
+}
+
+#image-text {
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+h2 {
+    background-color: lightblue;
+}
+
+.header-img {
+    background-image:url('images/bce40f6ad00ff41a8de0db8a21af0d19.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header-img h2 {
+    background-color: lightblue;
+    padding: 5px;
+}
+
+/* About me/Work/Contact Me Headers */
+
+.section h1 {
+    margin-left: 50px;
+    color:  rgb(41, 126, 151);
+    padding-top: 10px;
+    display: flex;
+    justify-self: right;
+}
+
+section {
+    margin-top: 15px;
+}
+
+section p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: larger;
+}
+
+.section ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+/* Contact items list */
+.section li {
+    font-size: large;
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style-type:none;
+    color:  rgb(41, 126, 151);
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    /* background-image: url(); */
+    width: 100%;
+    margin-left: 75px;
+}
+
+.grid-item {
+    border: 5px solid  rgb(129, 226, 255);;
+    justify-content: stretch;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    min-height: 150px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    opacity: 0.75;
+}
+
+.grid-item:hover {
+    opacity: 100%;
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url("images/Beach.jpg");
+}
+
+.item-2 {
+    background-image: url("images/LED-Wall-Benefits.png");
+    
+}
+
+.item-3 {
+    background-image: url("images/calculator.png");
+}
+
+.item-4 {
+    background-image: url("images/Puzzle.png");
+}
+
+.item-5 {
+    background-image: url("images/hero-bg.jpg");
+
+}
+
+.work-text {
+    background-color: lightblue;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    opacity: 1.0;
+}
+
+.work-text h2 {
+    font-weight: bold;
+    margin-bottom: -20px;
+    margin-top: 5px;
+    color: black;
+}
+
+a:link, a:visited{
+    font-weight: bold;
+    margin-bottom: -20px;
+    margin-top: 5px;
+    color: black;
+}
+.work-text h5 {
+    margin-bottom: 5px;
+}
+
+a:link {
+    color: black;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 908px) {
+    .grid-item {
+        justify-content: stretch;
+        margin: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        min-height: 150px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat:no-repeat;
+    }
+}
